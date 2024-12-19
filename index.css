@@ -1,0 +1,43 @@
+body {
+    display: flex;
+    justify-content: center;
+} 
+
+/* no control over the pic, nor the top part */
+/* card looks like it overlaps the form, non intentional */
+.card-img-top {
+    border-radius: 50%;
+}
+
+.card {
+    padding: 1.5rem;
+    width: 50rem;
+    border: .5px solid cadetblue;
+    border-radius: 1rem;
+}
+
+ 
+ /* div {
+    background-color: cadetblue;
+} */
+
+form {
+     display: flex;
+    justify-content: center;
+    padding: 1.5rem;
+    border: .5px solid cadetblue;
+    border-radius: 1rem;
+    /* background-color: cadetblue; */
+    /* box-shadow: 0 0 20px; */
+}
+
+.accordion {
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+    border: .5px solid cadetblue;
+    width: 50rem;
+    border-radius: 1rem;
+    /* background-color: cadetblue; */
+    /* box-shadow: 0 0 20px; */
+}
